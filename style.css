@@ -7,8 +7,8 @@ h1
 ul{
     list-style-type: none;
     padding: 20px;
-    margin: 20px;
     background-color: black;
+    margin: 0px;
 }
 
 li
@@ -32,4 +32,40 @@ header
 {
     border-color: black;
     border-style: solid;
+}
+
+section
+{
+    float: left;
+    width: 50%;
+    margin: 5%;
+}
+
+aside
+{
+    width: 40%;
+    float: right;
+    
+}
+img
+{
+    width: 100%;
+}
+
+nav
+{
+    background-color: black;
+}
+
+
+.siguiente{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.siguiente a{
+    color: white;
 }
